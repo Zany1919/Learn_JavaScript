@@ -49,4 +49,20 @@
 
 /* Pievienojot komentāru uzmanīgi rakstām komandas pieprasījumu, ievērojot visus nosacījumus, jo savādāk tā netiks izpildīta. Ievērojam, to, ka pirms komentāra mēs neliekam atstarpes, un pašu komentāru liekam pēdiņās: "". Mēs iegūstam trešo failu stāvokli. Tie ir atrasti, tiek izsekoti, un ir komentēti. */
 
+/* Ja mēs gribam redzēt kādi atskaites pinkti - komentāri mums ir bijuši. Mēs gribam redzēt ko tieši un kurā brīdī mēs esam mainījuši, komentējuši, mēs izpildām sekojošu komandu: */
+
+//git log
+
+/* Mēs redzam visus līdz šim saglabātos komentārus - atskaites punktus. */
+
+/* Tagad mums ir failu direktorija uz datora, kuru kontrolē Git, bet lai kāds bez mums varētu piekļūt mūsu direktorijai mums jāizveido tā globālajā - attālinātajā failu glabāšanas servisā: Git Hub. Lai to izdarītu mums jāatver savs Git Hub profils un jāuztaisa jauna direktorija: create new repository. */
+
+/* Lai savienotu projektu, kas pagaidām ir tikai uz mūsu datora ar attālināto Git Hub direktoriju - repozitoriju, mums ir jānokopē adrese no Git Hub izveidotā repozitorija, no tās sadaļas, kad mums jau ir eksistējoša direktorija - repozitorija. Šinī pimērā mums ir jāizpilda sekojoša komanda , kur ir norādīta darbība, kas jāizpilda, repozitorija nosaukums un adrese. Katram repozitorijam - direktorijai ir cita adrese. Mēs rakstām terminālī komandu: */
+
+//git remote add origin git@github.com:Zany1919/Learn_JavaScript.git
+
+/* Mēs redzam, ka abas direktorijas, gan tā, kas mums ir uz datora, gan tā, kas ir attālinātajā failu glabātuvē: Git Hub ir savienotas vienā. Lai mēs varētu augšuplādēt mūsu projekta failus attālinātajā Git Hub servisā mums ir jāizpilda sekojoša komanda: */
+
+//git push -u origin master
+
 
