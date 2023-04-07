@@ -11,4 +11,25 @@ https://github.com/Zany1919/Learn_JavaScript.git . Bet mus ir jāatver termināl
 
 /* Mēs redzam, ka mūsu jaunajā datorā mapītē darbs ir viss mūsu projekts, un mēs varam sākt ar to strādāt. */
 
-/* Strādājam, veicam izmaiņas, papildinam projektu no darba datora. */
+/* Strādājam, veicam izmaiņas, papildinam projektu no darba datora. Atnākam mājās, un lai darbā veiktās izmaiņas parādītos uz mājas datora, mūsu projektā, mums ir jāizpilda sekojoša komanda terminālī: */
+
+//git pull
+
+
+/* Izpildīt šo komadu ir ļoti svarīgi, jo, ja mēs strādājam komandā un kāds izstrādātājs ir veicis kādas izmaiņas projektā, mums obligāti jāizpilda šī komanda, lai mēs uzreiz redzētu jaunākās izmaiņas, un varētu pilnvērtīgi turpināt darbu pie konkrētā projekta. Mēs redzam, ka parādās visi jaunie faili, un mēs varam turpināt tālāk savu darbu, projektu jau no mājas datora, katru reizi, kad veicam kādas izmaiņas no cita datora, bet tad pārejam atpakaļ pie otra datora mums ir jāizpilda šī komanda, lai vienmēr turpinātu darbu tur kur beidzām. */
+
+/* Ja mēs attālinātajā failu glabāšanas servisā Git Hub veicam kādas izmaiņas, jeb arī kāds no mūsu komandas augšuplādē failus, maina tos, tad mums turpinot darbu no savas puses, strādājot ar versiju kontroli: Git var rasties kļūda. Lai tas tā nenotiktu, pirms atsākt darbu pie projekta, mums ir terminālī jāizpilda komanda: */
+
+//git pull
+
+/* . */
+
+/* Katru rezi neatkarīgi no kura datora mēs strādājam, kad mēs kaut ko mainām, papildinam savā projektā, lai mēs strādātu vienmēr pie projekta aktuālākās versijas, mums ir jāizpilda piecas obligātas komandas: */
+
+//git status
+//git add -A
+//git status
+//git commit -a -m"Komentārs"
+//git push
+
+/* . */
