@@ -11,25 +11,20 @@ https://github.com/Zany1919/Learn_JavaScript.git . Bet mus ir jāatver termināl
 
 /* Mēs redzam, ka mūsu jaunajā datorā mapītē darbs ir viss mūsu projekts, un mēs varam sākt ar to strādāt. */
 
-/* Strādājam, veicam izmaiņas, papildinam projektu no darba datora. Atnākam mājās, un lai darbā veiktās izmaiņas parādītos uz mājas datora, mūsu projektā, mums ir jāizpilda sekojoša komanda terminālī: */
+/* Ļoti svarīga komanda, kas mums ir jāizpilda katru reizi atsākot darbu pie mūsu projekta, neatkarīgi no datora, kurā mēs gribam strādāt. Šī komanda ir vajadzīga, lai ja mēs, vai kāds cits izstrādājs attālinātajā failu glabāšanas servisā: Git Hub ir veicis kādas izmaiņas, pievienojis vai mainījis kādus failus. Izpildot šo komandu mēs uzreiz savā datorā redzam jaunākos failus, strādājam ar visjaunāko projekta versiju. Mēs strādājam pie projekta, pēc tam veicam ierastās piecas mums jau zināmās komandas. Ja iepriekš būsim izpildījuši komandu: git pull, mums neradīsies terminālī kļūda, kas daudziem rodas, kad ir Git Hub attālinātajā failu glabāšanas servisā veiktas izmaiņas, bet sākot strādāt lokāli nav izpildīta šī komanda. Ja mums ir izpildīta šī komanda, mums tālāk strādājot, saglabājot versijas - pievienojot commit un augšuplādējot izmaiņas vis notiek bez kļūdām. 
 
 //git pull
 
-
-/* Izpildīt šo komadu ir ļoti svarīgi, jo, ja mēs strādājam komandā un kāds izstrādātājs ir veicis kādas izmaiņas projektā, mums obligāti jāizpilda šī komanda, lai mēs uzreiz redzētu jaunākās izmaiņas, un varētu pilnvērtīgi turpināt darbu pie konkrētā projekta. Mēs redzam, ka parādās visi jaunie faili, un mēs varam turpināt tālāk savu darbu, projektu jau no mājas datora, katru reizi, kad veicam kādas izmaiņas no cita datora, bet tad pārejam atpakaļ pie otra datora mums ir jāizpilda šī komanda, lai vienmēr turpinātu darbu tur kur beidzām. */
-
-/* Ja mēs attālinātajā failu glabāšanas servisā Git Hub veicam kādas izmaiņas, jeb arī kāds no mūsu komandas augšuplādē failus, maina tos, tad mums turpinot darbu no savas puses, strādājot ar versiju kontroli: Git var rasties kļūda. Lai tas tā nenotiktu, pirms atsākt darbu pie projekta, mums ir terminālī jāizpilda komanda: */
+/* Katru rezi neatkarīgi no kura datora mēs strādājam, kad mēs kaut ko mainām, papildinam savā projektā, lai mēs strādātu vienmēr pie projekta aktuālākās versijas, mums ir jāizpilda sešas obligātas komandas: */
 
 //git pull
-
-/* . */
-
-/* Katru rezi neatkarīgi no kura datora mēs strādājam, kad mēs kaut ko mainām, papildinam savā projektā, lai mēs strādātu vienmēr pie projekta aktuālākās versijas, mums ir jāizpilda piecas obligātas komandas: */
-
 //git status
 //git add -A
 //git status
 //git commit -a -m"Komentārs"
 //git push
 
-/* . */
+/* Mums jāstrādā vienmēr pēc šāda principa, neatkarīgi vai strādājam vienatnē vai komandā. Mums šie Git un Git Hub pamati ir jāzin, jo tā ir obligāta prasība visās vakancēs kā Frontend izstrādātājam. Git versiju kontrole un Git Hub attālinātais failu serviss ir ļoti jaudīgas un sarežģītas sistēmas, kur ir ļoti daudz komandu un iespēju, bet iesākumā mums ir pietiekami, labi zināt to pamatus. Saprast kas un kā darbojās un kapēc tas vispār ir vajadzīgs. */
+
+/* Svarīgi katru reizi, kad sākam strādāt pie kāda jauna projekta, kad mums jau ir faili, izveidot failu: .gitignore. Ielikam to projekta mapītē. Tajā mēs ievērojot pieraksta nosacījumus ierakstam visus tos failus, mapes, kuras nevēlamies nevienam citam rādīt, nevēlamies, lai Git versiju kontrole tiem sekotu, nevēlamies tos likt attālinātajā Git Hub failu glabāšanas servisā. Parastākais piemērs ir mapīte: node_modules, jo to parasti nevienam citam nerāda, neaugšuplādē. Dažādi sistēmas faili, utt. Izveidojot failu: .gitignore neaizmirstam izmantojot Git versiju kontroli to pievienot, pievienot commit un augšuplādēt attālinātajā failu glabāšanas servisā: Git Hub. */
+
