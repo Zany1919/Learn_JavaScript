@@ -28,3 +28,9 @@ https://github.com/Zany1919/Learn_JavaScript.git . Bet mus ir jāatver termināl
 
 /* Svarīgi katru reizi, kad sākam strādāt pie kāda jauna projekta, kad mums jau ir faili, izveidot failu: .gitignore. Ielikam to projekta mapītē. Tajā mēs ievērojot pieraksta nosacījumus ierakstam visus tos failus, mapes, kuras nevēlamies nevienam citam rādīt, nevēlamies, lai Git versiju kontrole tiem sekotu, nevēlamies tos likt attālinātajā Git Hub failu glabāšanas servisā. Parastākais piemērs ir mapīte: node_modules, jo to parasti nevienam citam nerāda, neaugšuplādē. Dažādi sistēmas faili, utt. Izveidojot failu: .gitignore neaizmirstam izmantojot Git versiju kontroli to pievienot, pievienot commit un augšuplādēt attālinātajā failu glabāšanas servisā: Git Hub. */
 
+/* Lai mēs varētu ērti strādāt, pārskatīt savu projektu, tā versijas, kas kad ir mainīts, mēs varam izmantot programmu: Git Kraken, kur mums ir iespēja ērti aplūkot katru izmaiņu, katru atskaites punktu - commit, kas un kad tika izdarīts, un mums ir ērti to lietot, tas ir vienkāršāks nekā terminālis, mēs uzreiz nospiežot pogas varam likt Git versiju kontrolei izsekot failus, piecienot commit un augšuplādēt failus izmantojot pogu: push. Git Kraken arī ir sarežģīta un jaudīga sistēma, un mums tā ir jāzin, jāprot ar to strādāt. */
+
+/* Ja mums ir nepieciešamība strādāt ar Git Hub direktorijām, tad Git Kraken ir vislabākais instruments, kura lietošana ir vienkārša un ērta. */
+
+
+
